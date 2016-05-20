@@ -12,6 +12,10 @@ public class JaxRsConfig extends ResourceConfig {
     public JaxRsConfig() {
         packages("me.sinu.api.resource");
 
+        initSwagger();
+    }
+
+    private void initSwagger() {
         register(io.swagger.jaxrs.listing.ApiListingResource.class);
         register(io.swagger.jaxrs.listing.SwaggerSerializers.class);
 
