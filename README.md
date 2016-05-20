@@ -7,20 +7,20 @@ Do
     
 Following REST APIs are available:
 
-    GET http://localhost:8080/springcxf/api/greet
-    GET http://localhost:8080/springcxf/api/greetJson
+    GET http://localhost:8080/springjersey/api/greet
+    GET http://localhost:8080/springjersey/api/greetJson
 
 Swagger API documents in JSON and YAML are available at
 
-    http://localhost:8080/springcxf/api/swagger.json
-    http://localhost:8080/springcxf/api/swagger.yaml
+    http://localhost:8080/springjersey/api/swagger.json
+    http://localhost:8080/springjersey/api/swagger.yaml
 
 To view Swagger UI, use Browser to go to:
 
-    http://localhost:8080/springcxf/apidocs/?url=/springcxf/api/swagger.yaml
+    http://localhost:8080/springjersey/apidocs/?url=/springjersey/api/swagger.yaml
 or
 
-    http://localhost:8080/springcxf/apidocs/?url=/springcxf/api/swagger.json
+    http://localhost:8080/springjersey/apidocs/?url=/springjersey/api/swagger.json
 
 Writing Swagger Annotations: https://github.com/swagger-api/swagger-core/wiki/Annotations-1.5.X
 
